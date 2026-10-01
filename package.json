@@ -1,0 +1,14 @@
+{
+  "name": "pms-relay-phone",
+  "private": true,
+  "type": "module",
+  "description": "Project Suite on the phone: the relay's static web app (GitHub Pages). No build step; dev/ is only for testing.",
+  "scripts": {
+    "check": "node dev/check.mjs",
+    "dev": "node dev/serve.mjs",
+    "e2e": "node dev/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.63.0"
+  }
+}
